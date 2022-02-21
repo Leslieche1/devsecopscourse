@@ -1,0 +1,8 @@
+Type() - the return value is a type object and generally the same object as 
+returned by Object.
+
+Max() - return the largest item in an iterable or the largest of two or more
+arguments.
+
+Dir() - without arguments, return the list of names in the current local scope.
+With an argument, attempt to return a list a valid attributes for the object.

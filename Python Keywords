@@ -1,0 +1,4 @@
+False, None, True, And, As, assert, Async, Await, Break, Class,
+Continue, Def, Del, Elif Else, Except, Finally, For, From, Global,
+If, Import, In, Is, Lambda, Nonlocal, Not, Or, Pass, Raise,
+ Return, Try, While, With, Yield 
