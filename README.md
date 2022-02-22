@@ -23,3 +23,9 @@ Q3
 3.182.0
 4.error
 5.10, 20, 30
+ 
+Q4
+1. x y z = 1 2 3
+2. all except 4square and ver1.3
+3. none of the mentioned 
+4. and, None, class
