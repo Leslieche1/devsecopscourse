@@ -1,0 +1,40 @@
+#!/Users/leslieche/development/devsecops/virtuale./python 
+
+a = 299 #numbers
+b = 90.0 #Floating 
+c = "145" #string"
+d = "\u0CA0_\u0CA0" #string
+e = "True" #String
+f = True #Integer
+g = len('Sample') #list
+h = 100**30 #numbers
+i = 1 >= 1 #numbers
+j = 30%7 #numbers
+k = 30/7 #numbers
+l = b + 7 #numbers
+m = 128 << 1 #integer
+n = bin(255) #integer
+o = [k, l, m, n ] # list
+p = len(o) #integer
+
+my_var == 24
+
+numbers = list(range(1, 11))
+    print(numbers * 1)
+for i in range(9):
+    print(i)    
+
+Snack = "oreos"
+Print(snack * 100)
+
+grocery_list = {'Juice': 9.42, 'Chicken': 5.67, 'Water': 3.25, 'Ice Cream': 13.30, 'Wings': 7.50}
+cheapest = min(grocery_list, key=grocery_list.get)
+value = str(grocery_list[cheapest])
+print("{0}: {1}".format(cheapest, grocery_list[cheapest]))
+
+print("snack" * (random.randint(0, 100)))
+
+grocery = ["Juice", "Chicken", "Water", "Ice Cream", "Wings"]
+print(random.choice(grocery))
+
+print("snack" * (random.randint(50, 50)))
