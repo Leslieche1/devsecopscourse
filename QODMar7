@@ -1,0 +1,60 @@
+#!/Users/leslieche/development/devsecops/virtuale./python 
+
+#Q1
+import random
+Price_list = [9.42 , 5.67, 3.25, 13.40, 7.50]
+X = [10]
+Y = random.choices(Price_list)
+Y > X
+
+#Q2
+List = ['bread', 'butter', 'groundnuts', 'sugar', 'garri', 'egusi', 'ogboono', 'eru']
+all(x in ['bread', 'butter', 'groundnuts', 'sugar', 'garri', 'egusi', 'ogboono', 'eru'] for x in ['bread', 'rice', 'okra', 'water', 'egusi'])
+
+#Q3
+string_name = "Blood-oxygenation level dependent functional magnetic resource imaging"
+for element in range(0, len(string_name)):
+    print(string_name[element])
+
+#Q4
+Grocery_list = ['rice', 'tomatos', 'beef', 'Lemonade']
+for i in range(list_length):
+    Grocery_list.append("Note to self, buy water")
+print(Grocery_list)
+
+#Q5
+for number, letter in enumerate(Grocery_list):
+    print(number, letter)
+
+#Q6
+Grocery_list = ['rice', 'tomatos', 'beef', 'Lemonade']
+
+search = input("Oreos : ")
+
+def findElement(Grocerly_list, searchElement):
+    for value in Grocery_list:
+        if value == searchElement:
+            return True
+            return False
+
+if findElement(Grocery_list, search.lower()):
+    print("%s is found" % search)
+else:
+    print("%s is not found" % search)
+
+#Q7
+Phrase = "Blood-oxygenation level dependent functional magnetic resource imaging"
+for let in Phrase:
+    print(let)
+
+#Q8
+Grocery_list = ['rice', 'tomatos', 'beef', 'Lemonade']
+for i in range(len(Grocery_list)):
+    print(i, Grocery_list[i])
+print()
+
+#Q9
+Grocery_list = ['rice', 'tomatos', 'beef', 'Lemonade']
+for i, item in enumerate(Grocery_list, 1):
+    print(i, ". " + item, sep="", end="")
+    
